@@ -1,9 +1,31 @@
 aid: pictorlabsai
 name: PictorLabs.ai
-description: PictorLabs.ai is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Pictor Labs develops AI-powered virtual staining technology for histopathology
+  and digital pathology laboratories. Its platform generates diagnostic-quality
+  tissue stains computationally in minutes rather than the hours or days required
+  by traditional chemical staining, preserving precious tissue samples for
+  additional downstream testing. Products include ClearStain for direct virtual
+  H&E sequencing and DeepStain and ReStain for flexible, repeatable multi-stain
+  tissue analysis. The technology integrates with existing whole-slide scanner
+  platforms (partners include Hamamatsu and Proscia) and offers cloud or
+  on-premise deployment. Virtual stains are currently labeled For Research Use
+  Only. Pictor Labs is a venture-backed company in the Insight Partners
+  portfolio. As of this profile the company publishes no public developer API,
+  SDK, or API documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/pictorlabsai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68cb008ba0b9a9bec25a9a40/68cc6a51a05dfd4d6d701ef0_Webclip_256px.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Artificial Intelligence
+- Digital Pathology
+- Virtual Staining
+- Histopathology
+- Medical Imaging
+- Healthcare
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pictorlabsai-domain-security.yml
+- type: Website
+  url: https://www.pictorlabs.ai
+- type: About
+  url: https://www.pictorlabs.ai/about
+- type: Support
+  url: https://www.pictorlabs.ai/contact
+- type: TermsOfService
+  url: https://www.pictorlabs.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.pictorlabs.ai/privacy
+- type: GitHubOrganization
+  url: https://github.com/pictorlabs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pictorlabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
